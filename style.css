@@ -1,0 +1,81 @@
+/* Styles for GitHub About Me page */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Fira Code", monospace;
+    display: block;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: palevioletred;
+    color: #111;
+}
+
+.profile-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.profile-image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-links-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.profile-links-block h2 {
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.profile-links-block a {
+    font-size: 1.1rem;
+    color: #000;
+    text-decoration: underline;
+}
+
+.sheet-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px auto;
+    border: 4px solid #000;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.sheet-container iframe {
+    display: block;
+    width: 100%;
+    min-height: 700px;
+    border: 0;
+}
+
+#playground {
+    margin-top: 20px;
+}
+
+.image-border {
+    border: solid 5px #000;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .profile-row {
+        flex-direction: column;
+    }
+}
+
