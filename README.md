@@ -34,6 +34,7 @@ Focus: DOM manipulation, event handling, game logic
 ---
 
 ### 2️⃣ JavaScript DOM Practice & Quiz
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=flat-square)](https://js-document-object-model-test.netlify.app/)
 [![Repo](https://img.shields.io/badge/Repo-View-blue?style=flat-square)](https://github.com/vinnygonzalez-collab/JS-document-object-model-test)
 
 ```text
